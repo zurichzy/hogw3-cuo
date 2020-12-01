@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 import pytest
 import yaml
-from pytest_work1.pytestCode.calculator import Calculator
+from pytest1.pytestCode.calculator import Calculator
 
 #读取测试数据
 def get_datas():
@@ -29,9 +29,6 @@ def get_datas():
             divdatas,divmyids,div_wrongdatas,div_wrongids
 
             ]
-
-
-
 class TestCalculator:
     #类级别
     def setup_class(self):
