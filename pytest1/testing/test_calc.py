@@ -4,7 +4,7 @@ import pytest
 import yaml
 from pytest1.pytestCode.calculator import Calculator
 
-#读取测试数据
+#读取测试数据 111
 def get_datas():
     with open('./datas/calc.yml',encoding='utf-8') as f:
         mydatas = yaml.safe_load(f)
